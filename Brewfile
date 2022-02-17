@@ -39,10 +39,8 @@ brew 'ripgrep'
 brew 'shellcheck'
 brew 'yarn'
 
-# Drivers
-brew 'elgato-stream-deck'
-
 # Casks
+cask 'elgato-stream-deck'
 cask 'google-chrome'
 cask 'visual-studio-code'
 cask 'insomnia'
