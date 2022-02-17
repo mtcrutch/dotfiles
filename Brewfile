@@ -48,7 +48,6 @@ cask 'charles'
 cask 'spotify'
 
 # Mac App Store
-mas 'CARROT Weather', id: 993487541
 mas 'Slack', id: 803453959
 mas 'The Unarchiver', id: 425424353
 mas 'Things', id: 904280696
