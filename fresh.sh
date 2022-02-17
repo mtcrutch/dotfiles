@@ -26,7 +26,7 @@ brew update
 
 # Install all dependencies with bundle (see Brewfile)
 brew tap homebrew/bundle
-brew bundle --file "$DOTFILES"/Brewfile
+brew bundle --file "$HOME"/Brewfile --verbose
 
 # Set macOS preferences, which will reload the shell
 # shellcheck disable=SC1091

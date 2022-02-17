@@ -2,6 +2,7 @@
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
+tap 'homebrew/cask-drivers'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
 
@@ -38,11 +39,15 @@ brew 'ripgrep'
 brew 'shellcheck'
 brew 'yarn'
 
+# Drivers
+brew 'elgato-stream-deck'
+
 # Casks
-brew install --cask google-chrome
-brew install --cask visual-studio-code
-brew install --cask insomnia
-brew install --cask spotify
+cask 'google-chrome'
+cask 'visual-studio-code'
+cask 'insomnia'
+cask 'charles'
+cask 'spotify'
 
 # Mac App Store
 mas 'CARROT Weather', id: 993487541
