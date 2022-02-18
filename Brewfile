@@ -40,7 +40,7 @@ brew 'shellcheck'
 brew 'yarn'
 
 # Casks
-cask 'elgato-stream-deck'
+# cask 'elgato-stream-deck'
 cask 'google-chrome'
 cask 'visual-studio-code'
 cask 'insomnia'
