@@ -28,6 +28,9 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file "$HOME"/Brewfile --verbose
 
+# Sync Visual Studio Code settings
+code --sync on
+
 # Set macOS preferences, which will reload the shell
 # shellcheck disable=SC1091
 . "$HOME"/.macos
