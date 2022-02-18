@@ -22,10 +22,10 @@ rm -rf "$HOME"/.zshrc
 ln -s "$HOME"/.dotfiles/.zshrc "$HOME"/.zshrc
 
 # Update Homebrew recipes
-brew update
+brew update --verbose
 
 # Install all dependencies with bundle (see Brewfile)
-brew tap homebrew/bundle
+brew tap homebrew/bundle --verbose
 brew bundle --file "$HOME"/Brewfile --verbose
 
 # Sync Visual Studio Code settings
