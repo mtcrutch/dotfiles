@@ -30,4 +30,4 @@ brew bundle --file "$HOME"/Brewfile --verbose
 
 # Set macOS preferences, which will reload the shell
 # shellcheck disable=SC1091
-. "$DOTFILES"/.macos
+. "$HOME"/.macos
