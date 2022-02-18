@@ -51,7 +51,7 @@ cask 'spotify'
 mas 'Slack', id: 803453959
 mas 'The Unarchiver', id: 425424353
 mas 'Things', id: 904280696
-mas 'Xcode', id: 497799835
+# mas 'Xcode', id: 497799835
 mas 'Bitwarden', id: 1352778147
 mas 'Divvy', id: 413857545
 mas 'Amphetamine', id: 937984704
